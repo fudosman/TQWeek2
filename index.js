@@ -1,5 +1,5 @@
-function isPangram(string){
-    let strArr = string.toLowerCase();
+function isPangram(str){
+    let strArr = str.toLowerCase();
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
     
     for (let i = 0; i < alphabet.length; i++) {
